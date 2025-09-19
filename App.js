@@ -6,7 +6,7 @@ import Login from "./components/Login";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Salma-Cab-Service">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
